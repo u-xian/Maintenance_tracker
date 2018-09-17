@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>M-Tracker</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/bootstrap-material/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/bootstrap-material/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="/bootstrap-material/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+     <!--Main Navigation-->
+      <header>
+         <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark indigo">
+            <!-- Navbar brand -->
+              <a class="navbar-brand" href="/index.html">M-Tracker</a>
+                <!-- Collapse button -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                <!-- Collapsible content -->
+                  <div class="collapse navbar-collapse" id="basicExampleNav">
+                    <!-- Links -->
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span> </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="howitworks.html">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="list.html">View</a>
+                        </li>
+                      </ul>
+                    <!-- Links -->
+                    <ul  class="navbar-nav pull-right">
+                      <<li class="nav-item nav-link" id="userWelcomeText"><i class="fa fa-user-circle"></i>&nbsp; Logged in as</li>
+                      <li class="nav-item"><a class="nav-link" href="/index.html">Sign Out</a></li>
+                   </ul>
+                  </div>
+                  <!-- Collapsible content -->
+           </nav>
+          <!--/.Navbar-->
+      </header>
+     <!--Main Navigation-->
+     <!--Main layout-->
+      <main> 
+        <br>
+         <div class="container-fluid">
+           <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-8">
+                                   <!--Section: Contact v.2-->
+                  <section class="section">
+
+                      <!--Section heading-->
+                      <h2 class="h1-responsive font-weight-bold text-center my-5">Have you got a fault? Tell us about it</h2>
+
+                      <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-9 mb-md-0 mb-5">
+                              <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                   <!--Grid row-->
+                                  <div class="row">
+                                      <div class="col-md-12">
+                                          <div class="md-form mb-0">
+                                              <input type="text" id = "title-input" class="form-control">
+                                              <label for="subject" class="">Title</label>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!--Grid row-->
+
+                                  <!--Grid row-->
+                                  <div class="row">
+
+                                      <!--Grid column-->
+                                      <div class="col-md-6">
+                                          <form class="md-form">
+                                              <div class="file-field">
+                                                  <div class="btn btn-primary btn-sm float-left">
+                                                      <span>Choose file</span>
+                                                      <input type="file" id="file-upload" name="request" accept="image/*">
+                                                  </div>
+                                              </div>
+                                          </form>
+                                      </div>
+                                      <!--Grid column-->
+
+                                      <!--Grid column-->
+                                      <div class="col-md-6">
+                                          <div class="md-form mb-0">
+                                            <form>
+                                                <select id="category-input" class="form-control" name="dropdown">
+                                                    <option value="" selected>Select Category</option>
+                                                    <option value="general">General</option>
+                                                    <option value="electrical">Electrical</option>
+                                                    <option value="physical">Physical</option>
+                                                    <option value="mechanical">Mechanical</option>
+                                                    <option value="electronic">Electronic</option>
+                                                    <option value="software">Software</option>
+                                                </select>
+                                            </form>
+                                          </div>
+                                      </div>
+                                      <!--Grid column-->
+
+                                  </div>
+                                  <!--Grid row-->
+                                  <!--Grid row-->
+                                  <div class="row">
+
+                                      <!--Grid column-->
+                                      <div class="col-md-12">
+
+                                          <div class="md-form">
+                                              <textarea type="text" id="description-input" rows="3" placeholder="...write detailed description of the fault" class="form-control md-textarea"></textarea>
+                                              <label for="message">Description</label>
+                                          </div>
+                                          <p class="counter"></p>
+                                      </div>
+                                  </div>
+                                  <!--Grid row-->
+
+                              </form>
+                               <p id = "messageText" ></p>
+                               <div id="request-btn">
+                                <button class="btn btn-primary">Submit</button>
+                               </div>
+                          </div>
+
+                      </div>
+
+                  </section>
+                  <!--Section: Contact v.2-->
+              </div>
+              <div class="col-md-1"></div>
+           </div>
+         </div>
+          <br>
+      </main>
+     <!--Main layout-->
+     <!--Footer-->
+<footer class="page-footer font-small blue">
+    <!--Copyright-->
+      <div class="container-fluid">
+       <div class="row">
+          <div class="col-sm-3">
+           <a href="#"> Documentation </a>
+          </div>
+          <div class="col-sm-6 text-center">
+            © M-tracker.com
+          </div>
+          <div class="col-sm-3 text-right">
+           <ul class="list-inline">
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+</footer>
+<!--Footer-->
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="/bootstrap-material/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/bootstrap-material/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/bootstrap-material/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/bootstrap-material/js/mdb.min.js"></script>
+
+    <script src="/assets/js/addrequest.js"></script>
+</body>
+
+</html>

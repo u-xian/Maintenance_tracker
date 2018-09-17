@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>M-Tracker</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/bootstrap-material/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/bootstrap-material/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="/bootstrap-material/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+     <!--Main Navigation-->
+      <header>
+         <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark indigo">
+            <!-- Navbar brand -->
+              <a class="navbar-brand" href="/test.html">M-Tracker</a>
+                <!-- Collapse button -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                <!-- Collapsible content -->
+                  <div class="collapse navbar-collapse" id="basicExampleNav">
+                    <!-- Links -->
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="/test.html">Home<span class="sr-only">(current)</span> </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/howitworks2.html">How it works</a>
+                        </li>
+                      </ul>
+                    <!-- Links -->
+                    <ul  class="navbar-nav pull-right">
+                      <li class="nav-item"><a class="nav-link" href="signin.html">Sign in</a></li>
+                      <li class="nav-item"><a class="nav-link" href="signup.html">Sign up</a></li>
+                   </ul>
+                  </div>
+                  <!-- Collapsible content -->
+           </nav>
+          <!--/.Navbar-->
+      </header>
+     <!--Main Navigation-->
+     <!--Main layout-->
+      <main> 
+        <h3 class="text-center" > <span id= "home-logo">M-Tracker</span>  |   We handle repair or maintenance request the finest and fastest way</h3>
+         <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-4">
+                         <!--  form login -->
+                    <div class="card">
+
+                      <h5 class="card-header info-color white-text text-center py-4">
+                        <strong>Sign in</strong>
+                      </h5>
+
+                      <!--Card content-->
+                      <div class="card-body px-lg-5 pt-0">
+
+                        <!-- Form -->
+                      <form class="text-center" style="color: #757575;">
+                          <!-- Email -->
+                          <div class="md-form">
+                            <input type="email" id="email" class="form-control">
+                            <label for="materialLoginFormEmail">E-mail<span class="red-text">*</span></label>
+                          </div>
+                          <!-- Password -->
+                          <div class="md-form">
+                            <input type="password" id="password" class="form-control">
+                            <label for="materialLoginFormPassword">Password<span class="red-text">*</span></label>
+                          </div>
+
+                          <div class="d-flex justify-content-around">
+                            <div>
+                              <!-- Forgot password -->
+                              <a href="" data-toggle="modal" data-target="#forgot_passwordModal">Forgot password?</a>
+                             
+
+                            </div>
+                          </div>
+
+                          <!-- Sign in button -->
+                          <button class="btn btn-info btn-block my-4" id="signin-btn" type="submit">Sign in</button>
+
+                          <!-- Social login -->
+                          <p>or sign in with:</p>
+                          <a type="button" class="btn-floating btn-fb btn-sm">
+                            <i class="fa fa-facebook"></i>
+                          </a>
+                          <a type="button" class="btn-floating btn-tw btn-sm">
+                            <i class="fa fa-twitter"></i>
+                          </a>
+                          <a type="button" class="btn-floating btn-li btn-sm">
+                            <i class="fa fa-linkedin"></i>
+                          </a>
+                          <a type="button" class="btn-floating btn-git btn-sm">
+                            <i class="fa fa-github"></i>
+                          </a>
+                        </form>
+                        <!-- Form -->
+                         <!-- Modal -->
+                              <div class="modal fade" id="forgot_passwordModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title">Password Recovery</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                            <form id="forgot_password" method="POST">
+                                                <div class="msg">
+                                                  Provide the email address you registered with
+                                                </div>
+                                                <div class="md-form input-group">
+                                                  <input type="email" id="modal-email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2" autofocus>
+                                                  <div class="input-group-append">
+                                                    <button id="modal-btn" class="btn btn-mdb-color waves-effect m-0" type="button">SUBMIT</button>
+                                                  </div>
+                                                </div>
+                                                <p class="text-center"><small> We will send you a link to reset your password</small></p>
+                                            </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Modal -->
+                      </div>
+
+                    </div>
+                    <!-- form login -->
+                    
+              </div>
+              <div class="col-md-4"></div>
+            </div>
+        </div>
+          <br>
+      </main>
+     <!--Main layout-->
+     <!--Footer-->
+<footer class="page-footer font-small blue">
+    <!--Copyright-->
+      <div class="container-fluid">
+       <div class="row">
+          <div class="col-sm-3">
+           <a href="#"> Documentation </a>
+          </div>
+          <div class="col-sm-6 text-center">
+            © M-tracker.com
+          </div>
+          <div class="col-sm-3 text-right">
+           <ul class="list-inline">
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+</footer>
+<!--Footer-->
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="/bootstrap-material/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/bootstrap-material/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/bootstrap-material/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/bootstrap-material/js/mdb.min.js"></script>
+
+    <script src="/assets/js/signin.js"></script>
+</body>
+
+</html>

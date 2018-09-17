@@ -1,0 +1,230 @@
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+}
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #fff;
+    font-weight: bold;
+}
+.page-footer{
+	font-weight: bold;
+	 padding-top: 20px;
+}
+
+ .welcome-div {
+ 	background-image: url('../img/repair1.jpg'); 
+ 	height: 500px; 
+ 	width: 100%;
+ 	background-position: center;
+ 	background-size:contain;
+  }
+
+  #home-logo {
+  text-shadow: 4px 4px 8px rgb(46, 139, 216);
+  color: #0B2240;
+  font-size: 100%;
+}
+
+  #welcome-text {
+   padding-top: 460px;
+}
+
+.info-box-2 {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  height: 80px;
+  display: flex;
+  cursor: default;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px; }
+  .info-box-2 .icon {
+    display: inline-block;
+    text-align: center;
+    width: 80px; }
+    .info-box-2 .icon i {
+      color: #fff;
+      font-size: 50px;
+      line-height: 80px; }
+  .info-box-2 .chart.chart-bar {
+    height: 100%;
+    line-height: 105px; }
+    .info-box-2 .chart.chart-bar canvas {
+      vertical-align: baseline !important; }
+  .info-box-2 .chart.chart-pie {
+    height: 100%;
+    line-height: 123px; }
+    .info-box-2 .chart.chart-pie canvas {
+      vertical-align: baseline !important; }
+  .info-box-2 .chart.chart-line {
+    height: 100%;
+    line-height: 115px; }
+    .info-box-2 .chart.chart-line canvas {
+      vertical-align: baseline !important; }
+  .info-box-2 .content {
+    display: inline-block;
+    padding: 7px 10px; }
+    .info-box-2 .content .text {
+      font-size: 13px;
+      margin-top: 11px;
+      color: #555; }
+    .info-box-2 .content .number {
+      font-weight: normal;
+      font-size: 26px;
+      margin-top: -4px;
+      color: #555; 
+}
+
+.bg-red {
+  background-color: #F44336 !important;
+  color: #fff; 
+}
+  .bg-red .content .text,
+  .bg-red .content .number {
+    color: #fff !important; 
+}
+
+.bg-pink {
+  background-color: #E91E63 !important;
+  color: #fff; }
+  .bg-pink .content .text,
+  .bg-pink .content .number {
+    color: #fff !important; }
+
+.bg-purple {
+  background-color: #9C27B0 !important;
+  color: #fff; }
+  .bg-purple .content .text,
+  .bg-purple .content .number {
+    color: #fff !important; }
+
+.bg-deep-purple {
+  background-color: #673AB7 !important;
+  color: #fff; }
+  .bg-deep-purple .content .text,
+  .bg-deep-purple .content .number {
+    color: #fff !important; }
+
+.bg-indigo {
+  background-color: #3F51B5 !important;
+  color: #fff; }
+  .bg-indigo .content .text,
+  .bg-indigo .content .number {
+    color: #fff !important; }
+
+.bg-blue {
+  background-color: #2196F3 !important;
+  color: #fff; }
+  .bg-blue .content .text,
+  .bg-blue .content .number {
+    color: #fff !important; }
+
+.bg-light-blue {
+  background-color: #03A9F4 !important;
+  color: #fff; }
+  .bg-light-blue .content .text,
+  .bg-light-blue .content .number {
+    color: #fff !important; }
+
+.bg-cyan {
+  background-color: #00BCD4 !important;
+  color: #fff; }
+  .bg-cyan .content .text,
+  .bg-cyan .content .number {
+    color: #fff !important; }
+
+.bg-teal {
+  background-color: #009688 !important;
+  color: #fff; }
+  .bg-teal .content .text,
+  .bg-teal .content .number {
+    color: #fff !important; }
+
+.bg-green {
+  background-color: #4CAF50 !important;
+  color: #fff; }
+  .bg-green .content .text,
+  .bg-green .content .number {
+    color: #fff !important; }
+
+.bg-light-green {
+  background-color: #8BC34A !important;
+  color: #fff; }
+  .bg-light-green .content .text,
+  .bg-light-green .content .number {
+    color: #fff !important; }
+
+.bg-lime {
+  background-color: #CDDC39 !important;
+  color: #fff; }
+  .bg-lime .content .text,
+  .bg-lime .content .number {
+    color: #fff !important; }
+
+.bg-yellow {
+  background-color: #ffe821 !important;
+  color: #fff; }
+  .bg-yellow .content .text,
+  .bg-yellow .content .number {
+    color: #fff !important; }
+
+.bg-amber {
+  background-color: #FFC107 !important;
+  color: #fff; }
+  .bg-amber .content .text,
+  .bg-amber .content .number {
+    color: #fff !important; }
+
+.bg-orange {
+  background-color: #FF9800 !important;
+  color: #fff; }
+  .bg-orange .content .text,
+  .bg-orange .content .number {
+    color: #fff !important; }
+
+.bg-deep-orange {
+  background-color: #FF5722 !important;
+  color: #fff; }
+  .bg-deep-orange .content .text,
+  .bg-deep-orange .content .number {
+    color: #fff !important; }
+
+.bg-brown {
+  background-color: #795548 !important;
+  color: #fff; }
+  .bg-brown .content .text,
+  .bg-brown .content .number {
+    color: #fff !important; }
+
+.bg-grey {
+  background-color: #9E9E9E !important;
+  color: #fff; }
+  .bg-grey .content .text,
+  .bg-grey .content .number {
+    color: #fff !important; }
+
+.bg-blue-grey {
+  background-color: #607D8B !important;
+  color: #fff; }
+  .bg-blue-grey .content .text,
+  .bg-blue-grey .content .number {
+    color: #fff !important; }
+
+.bg-black {
+  background-color: #000000 !important;
+  color: #fff; }
+  .bg-black .content .text,
+  .bg-black .content .number {
+    color: #fff !important; }
+
+.requestSteps{
+  color :#fff;
+}
+
+.invisible {
+  visibility: hidden;
+}

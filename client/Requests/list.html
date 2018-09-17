@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>M-Tracker</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/bootstrap-material/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/bootstrap-material/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="/bootstrap-material/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+     <!--Main Navigation-->
+      <header>
+         <!--Navbar-->
+            <nav class="navbar navbar-expand-lg navbar-dark indigo">
+            <!-- Navbar brand -->
+              <a class="navbar-brand" href="index.html">M-Tracker</a>
+                <!-- Collapse button -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                <!-- Collapsible content -->
+                  <div class="collapse navbar-collapse" id="basicExampleNav">
+                    <!-- Links -->
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span> </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="/howitworks.html">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="addrequest.html">Add New</a>
+                        </li>
+                      </ul>
+                    <!-- Links -->
+                    <ul  class="navbar-nav pull-right">
+                      <li class="nav-item nav-link" id="userWelcomeText"><i class="fa fa-user-circle"></i>&nbsp; Logged in as</li>
+                      <li class="nav-item"><a class="nav-link" href="/index.html">Sign Out</a></li>
+                   </ul>
+                  </div>
+                  <!-- Collapsible content -->
+           </nav>
+          <!--/.Navbar-->
+      </header>
+     <!--Main Navigation-->
+     <!--Main layout-->
+      <main> 
+        <br>
+         <div class="container-fluid">
+           <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-8">
+                <!-- Card -->
+                      <div class="card">
+                        <!-- Card content -->
+                        <div class="card-body">
+                          <!-- Title -->
+                          <h4 class="card-title" id="request-header"><a>All Requests</a></h4>
+                          <!-- Button -->
+                          <div id="filter-by">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                  <form id="filter-date">
+                                    <button class="invisible">From:</button>
+                                    <div class="md-form">
+                                      From : <input type="date" name="dated" min="2017-01-01" max="2099-12-31" id="materialLoginFormEmail" class="form-control">
+                                    </div>
+                                  </form>
+                                </li>
+                                <li class="status-container list-inline-item">
+                                  <form>
+                                    <button class="invisible">Filter by:</button>
+                                    <select class="form-control" name="status-dropdown">
+                                      <option value="">All</option>
+                                      <option value="approved">approved</option>
+                                      <option value="disapproved">disapproved</option>
+                                      <option value="resolved">resolved</option>
+                                      <option value="pending">pending</option>
+                                      <option value="" selected>status</option>
+                                    </select>
+                                  </form>
+                                </li>
+                                <li class="list-inline-item">
+                                  <form>
+                                    <select class="form-control" name="category-dropdown">
+                                      <option value="">All</option>
+                                      <option value="general">general</option>
+                                      <option value="electrical">electrical</option>
+                                      <option value="physical">physical</option>
+                                      <option value="mechanical">mechanical</option>
+                                      <option value="electronic">electronic</option>
+                                      <option value="software">software</option>
+                                      <option value="" selected>category</option>
+                                    </select>
+                                  </form>
+                                </li>
+                           </ul>
+                          </div>
+                          <p class = "text-center" id="filter-message"></p>
+                          <div class = "loader"></div>
+                          <table class="table table-bordered">
+                          </table>
+                          <p class="text-center" id="page-num"></p>
+                          <div class="pagination">
+                            <button class="btn btn-sm btn-primary" disabled><i class="fa fa-arrow-circle-left"></i> Prev</button>
+                            <button class="btn btn-sm btn-primary">Next <i class="fa fa-arrow-circle-right"></i> </button>
+                          </div>
+                        </div>
+
+                      </div>
+                      <!-- Card -->
+              </div>
+              <div class="col-md-1"></div>
+           </div>
+         </div>
+          <br>
+      </main>
+     <!--Main layout-->
+     <!--Footer-->
+<footer class="page-footer font-small blue">
+    <!--Copyright-->
+      <div class="container-fluid">
+       <div class="row">
+          <div class="col-sm-3">
+           <a href="#"> Documentation </a>
+          </div>
+          <div class="col-sm-6 text-center">
+            © M-tracker.com
+          </div>
+          <div class="col-sm-3 text-right">
+           <ul class="list-inline">
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                <li class="list-inline-item"><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+</footer>
+<!--Footer-->
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="/bootstrap-material/js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="/bootstrap-material/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="/bootstrap-material/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="/bootstrap-material/js/mdb.min.js"></script>
+
+      <script src="/assets/js/list.js"></script>
+</body>
+
+</html>
