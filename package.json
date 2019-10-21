@@ -41,7 +41,7 @@
     "express-validator": "^5.2.0",
     "express-validators": "^1.0.4",
     "jsonwebtoken": "^8.2.1",
-    "knex": "^0.15.2",
+    "knex": "^0.19.5",
     "mocha": "^5.0.2",
     "morgan": "^1.9.1",
     "nodemailer": "^4.6.7",
